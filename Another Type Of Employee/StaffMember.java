@@ -20,6 +20,7 @@ phone = ePhone;
 //-----------------------------------------------------------------
 // Returns a string including the basic employee information.
 //-----------------------------------------------------------------
+@Override
 public String toString()
 {
 String result = "Name: " + name + "\n";

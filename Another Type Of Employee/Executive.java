@@ -26,6 +26,7 @@ bonus = execBonus;
 // Computes and returns the pay for an executive, which is the
 // regular employee payment plus a one-time bonus.
 //-----------------------------------------------------------------
+@Override
 public double pay()
 {
 double payment = super.pay() + bonus;

@@ -20,6 +20,7 @@ payRate = rate;
 //-----------------------------------------------------------------
 // Returns information about an employee as a string.
 //-----------------------------------------------------------------
+@Override
 public String toString()
 {
 String result = super.toString();
@@ -29,6 +30,7 @@ return result;
 //-----------------------------------------------------------------
 // Returns the pay rate for this employee.
 //-----------------------------------------------------------------
+@Override
 public double pay()
 {
 return payRate;

@@ -26,6 +26,7 @@ hoursWorked += moreHours;
 //-----------------------------------------------------------------
 // Computes and returns the pay for this hourly employee.
 //-----------------------------------------------------------------
+@Override
 public double pay()
 {
 double payment = payRate * hoursWorked;
@@ -35,6 +36,7 @@ return payment;
 //-----------------------------------------------------------------
 // Returns information about this hourly employee as a string.
 //-----------------------------------------------------------------
+@Override
 public String toString()
 {
 String result = super.toString();
