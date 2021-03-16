@@ -21,8 +21,6 @@ public double area()
 {
 return 4*Math.PI*radius*radius;
 }
-
-180 Chapter 9: Polymorphism
 //-----------------------------------
 // Returns the sphere as a String.
 //-----------------------------------
