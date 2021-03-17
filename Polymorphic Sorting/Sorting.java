@@ -30,7 +30,7 @@ list[index] = temp;
 // Sorts the specified array of objects using the insertion
 // sort algorithm.
 //-----------------------------------------------------------------
-public static void insertionSort (Comparable[] list)
+public static void DESinsertionSort (Comparable[] list)
 {
 for (int index = 1; index < list.length; index++)
 {
