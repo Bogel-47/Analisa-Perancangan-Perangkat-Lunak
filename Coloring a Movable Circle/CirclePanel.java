@@ -87,7 +87,7 @@ private class ColorListener implements ActionListener{
         repaint();
         
     }
-}
+} 
 //---------------------------------------------------------------
 // Draw circle on CirclePanel
 //---------------------------------------------------------------
