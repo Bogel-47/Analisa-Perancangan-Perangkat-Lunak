@@ -19,7 +19,6 @@ min = index;
 for (int scan = index+1; scan < list.length; scan++)
 if (list[scan].compareTo(list[min]) < 0)
 
-Chapter 9: Polymorphism 183
 min = scan;
 // Swap the values
 temp = list[min];
